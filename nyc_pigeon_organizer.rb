@@ -11,5 +11,5 @@ def nyc_pigeon_organizer(data)
     pigeon_data[names[index]][:color] = data[:color].select{ |key, value| value == names[index] }
     index += 1
   end
-  print pigeon_data
+  puts pigeon_data
 end
