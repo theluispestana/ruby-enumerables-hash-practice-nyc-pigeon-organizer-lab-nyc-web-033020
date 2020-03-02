@@ -4,5 +4,6 @@ def nyc_pigeon_organizer(data)
   data[:color].each { |key, value| names << value }
   names.flatten!
   names.uniq!
-  pp names
+
+  
 end
