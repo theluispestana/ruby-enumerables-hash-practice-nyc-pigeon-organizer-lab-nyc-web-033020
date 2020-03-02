@@ -12,4 +12,6 @@ def nyc_pigeon_organizer(data)
     index += 1
   end
   puts pigeon_data
+  pp pigeon_data
+  pp names
 end
