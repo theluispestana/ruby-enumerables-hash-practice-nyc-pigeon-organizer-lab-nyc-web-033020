@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   pigeon_data = {}
   index = 0
   while index < names.length do
-    pigeon_data[name[index]][:color] = data[:color].select{ |key, value| value == name[index] }
+    pigeon_data[names[index]][:color] = data[:color].select{ |key, value| value == names[index] }
     index += 1
   end
   print pigeon_data
